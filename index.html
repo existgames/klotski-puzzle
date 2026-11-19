@@ -194,6 +194,115 @@ As a result, the perceived difficulty of a puzzle often depends more on the
 player's thought process than on the number of moves required.
 </p>
 
+<h2>What I Learned From Watching First-Time Players</h2>
+
+<p>
+While testing Temple Maze, I noticed something surprising. Many players became
+stuck not because the puzzle was objectively difficult, but because they misunderstood
+the rules or applied the wrong mental model.
+</p>
+
+<p>
+Watching real players revealed several recurring patterns that were not obvious
+during development.
+</p>
+
+<h3>Players Often Ignore the Tutorial Faster Than Expected</h3>
+
+<p>
+One unexpected observation was that some players would make the wrong move
+immediately, even when the correct move was clearly demonstrated through tutorial
+guidance and visual gestures.
+</p>
+
+<p>
+The problem was not that the instruction was hidden. Instead, players often formed
+their own plan before fully processing the tutorial.
+</p>
+
+<p>
+Once the very first move was performed incorrectly, the rest of the guidance became
+much less useful because the tutorial sequence was designed as a chain of connected
+actions. A mistake on step one could invalidate the intended learning path entirely.
+</p>
+
+<h3>Experienced Players Learn Patterns, Not Individual Solutions</h3>
+
+<p>
+Many beginners approach each puzzle as a unique challenge. More experienced
+players gradually learn reusable movement patterns.
+</p>
+
+<p>
+One important example is the ability to exchange the positions of two blocks.
+Although every level looks different, the same structural patterns appear repeatedly.
+</p>
+
+<p>
+After recognizing these patterns, players stop solving individual puzzles and begin
+solving categories of puzzles. The challenge becomes much easier because familiar
+situations can be recognized instantly.
+</p>
+
+<p>
+In many ways, mastering Klotski is less about memorizing solutions and more about
+learning a vocabulary of movement patterns.
+</p>
+
+<h3>Reachable Positions Are Not Always Valid Positions</h3>
+
+<p>
+Temple Maze introduces a two-floor system connected by stairways. During testing,
+many players assumed that if a location could be reached, it must also be a valid
+place to stop.
+</p>
+
+<p>
+However, the game's rules work differently.
+</p>
+
+<p>
+The upper floor is primarily designed as a transition layer rather than a resting
+layer. Players can move through it, but in most situations they cannot stop there.
+The main exception occurs during the final exit sequence, where reaching the upper
+floor immediately completes the puzzle.
+</p>
+
+<p>
+As a result, some players attempt to move onto the second floor and pause there.
+The move fails even though the path itself appeared valid.
+</p>
+
+<p>
+The mistake is understandable because many games teach players that movement and
+stopping are governed by the same rules. Temple Maze separates these concepts.
+</p>
+
+<ul>
+<li>Reachable positions are not always valid positions.</li>
+<li>Movement possibilities are not always stopping possibilities.</li>
+<li>The second floor often functions as a bridge rather than a destination.</li>
+</ul>
+
+<h3>The Most Common Mental Trap</h3>
+
+<p>
+The biggest lesson from observing players is that they naturally focus on the
+destination rather than the space surrounding it.
+</p>
+
+<p>
+Players try to move directly toward the exit, while successful solutions often
+require temporarily moving away from the goal, creating space, and preparing future
+moves.
+</p>
+
+<p>
+In other words, the challenge of a Klotski puzzle is usually not finding the exit.
+The challenge is understanding how the puzzle wants you to think.
+</p>
+    
+
 <h2>Strategies for Solving Klotski Puzzles</h2>
 
 <p>
